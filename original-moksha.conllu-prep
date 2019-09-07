@@ -121,25 +121,31 @@
 # text = Марья сявозе бронзать, Петя – сияннеть, а Джейн – зърняннеть.
 # text_sms = Mary vuäǯǯai proons, Peter siilb da Jane kååʹll.
 # text_fi = Mary voitti pronssin , Peter hopean ja Jane kultaa.
-1	Марья	Марья	N	_	Prop|Sem/Fem|Sg|Nom|Indef	2	nsubj	_	_
-2	сявозе	сявомс	V	_	TV|Ind|Prt1|ScSg3|OcSg3	0	root	_	_
-3	бронзать	бронза	N	_	Sg|Gen|Def	2	obj	_	_
-4	,	,	CLB	_	_	6	punct	_	_
-5	Петя	Петя	N	_	Prop|Sem/Mal|Sg|Nom|Indef	6	nsubj	_	_
-6	–	–	PUNCT	_	_	2	conj	_	_
-7	сияннеть	сия	N	_	Der/Poss|N|Sg|Gen|Def	6	obj	_	_
-8	,	,	CLB	_	_	11	punct	_	_
-9	а	а	CC	_	_	11	cc	_	_
-10	Джейн	Джейн	N	_	Prop|Sem/Fem|Sg|Nom|Indef	11	nsubj	_	_
-11	–	–	PUNCT	_	_	2	conj	_	_
-12	зърняннеть	зрня	N	_	Der/Poss|N|Sg|Gen|Def	11	obj	_	_
-13	.	.	CLB	_	_	2	punct	_	_
-
+1	Марья	Марья	PROPN	N	Prop|Sem/Fem|Sg|Nom|Indef	2	nsubj	_	_
+2	сявозе	сявомс	VERB	V	TV|Ind|Prt1|ScSg3|OcSg3	0	root	_	_
+3	бронзать	бронза	NOUN	N	Sg|Gen|Def	2	obj	_	_
+4	,	,	CLB	CLB	_	5	punct	_	_
+5	Петя	Петя	PROPN	N	Prop|Sem/Mal|Sg|Nom|Indef	2	conj	_	_
+6	–	–	PUNCT	PUNCT	_	5	punct	_	_
+7	сияннеть	сия	NOUN	N	Der/Poss|N|Sg|Gen|Def	5	orphan	_	_
+8	,	,	CLB	CLB	_	10	punct	_	_
+9	а	а	CC	CC	_	10	cc	_	_
+10	Джейн	Джейн	PROPN	N	Prop|Sem/Fem|Sg|Nom|Indef	2	conj	_	_
+11	–	–	PUNCT	PUNCT	_	10	punct	_	_
+12	зърняннеть	зрня	NOUN	N	Der/Poss|N|Sg|Gen|Def	10	orphan	_	_
+13	.	.	CLB	CLB	_	2	punct	_	_
+  
 # sent_id = LM_brat_2018:10
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="10" # storyID="brat"
 # text = Игуазсь оцю или ёмла мастор?
 # text_sms = Lij-a Iguazu jõnn avi uʹcc jânnam?
 # text_fi = Onko Iguazu iso vai pieni maa?
+1	Игуазсь	Игуазсь	NOUN	N	Prop|Sg|Nom|Def	5	nsubj	_	_
+2	оцю	оцю	ADJ	A	Sg|Nom|Indef	5	amod	_	_
+3	или	или	CC	CC	_	4	cc	_	_
+4	ёмла	ёмла	ADJ	A	Sg|Nom|Indef	5	amod	_	_
+5	мастор	мастор	NOUN	N	Sg|Nom|Indef	0	root	_	_
+6	?	?	CLB	CLB	_	5	punct	_	_
 
 # sent_id = LM_brat_2018:11
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="11" # storyID="brat"
