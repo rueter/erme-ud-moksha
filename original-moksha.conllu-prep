@@ -149,27 +149,57 @@
 
 # sent_id = LM_brat_2018:11
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="11" # storyID="brat"
-# text = Аф Петя Смитонь, аф Марья Браунонь ашесть кочкав.
+# text = Аф Петя Смит, аф Марья Браун ашесть кочкав.
 # text_sms = Nuʹtt kuâđđje vaʹlljeeǩâni Peter Smith diǥu še Mary Brown.
 # text_fi = Ei voitu valita Peter Smithiä eikä Mary Brownia.
+1	Аф	аф	AUX	_	Neg	2	aux:neg	_	_
+2	Петя	Петя	PROPN	_	Prop|Sem/Mal|Sg|Nom|Indef	9	nsubj	_	_
+3	Смит	Смит	PROPN	_	Prop|Sem/Sur|Sg|Nom|Indef	2	flat	_	_
+4	,	,	CLB	_	_	6	punct	_	_
+5	аф	аф	AUX	_	Neg	6	aux:neg	_	_
+6	Марья	Марья	PROPN	_	Prop|Sem/Fem|Sg|Nom|Indef	2	conj	_	_
+7	Браун	Браун	PROPN	_	Prop|Sem/Sur|Sg|Nom|Indef	6	flat	_	_
+8	ашесть	ашезь	AUX	_	Aux|Neg|Ind|Prt1|ScPl3	9	aux:neg	_	_
+9	кочкав	кочкавомс	VERB	_	IV|ConNeg	0	root	_	_
+10	.	.	CLB	_	_	9	punct	_	_
 
 # sent_id = LM_brat_2018:12
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="12" # storyID="brat"
 # text = Синь мялезост-ка ашезь кунда, кие тянь сёрмадозе.
 # text_sms = Seeʹst jeäʹla  ǩeeʹrjteeʹjest võl ni måkam jurddi. 
 # text_fi = Heillä ei ole ideaa siitä kuka sen kirjoitti.
+1	Синь	сон	PRON	Pron	Pers|Pl3|Gen	2	nmod	_	_
+2	мялезост-ка	мялезост-ка	NOUN	N	SP|Ill|PxPl3|Clt/Ka	4	obl	_	_
+3	ашезь	ашезь	AUX	V	Aux|Neg|Ind|Prt1|ScSg3	4	aux:neg	_	_
+4	кунда	кундамс	VERB	V	TV|ConNeg	0	root	_	_
+5	,	,	CLB	CLB	_	8	punct	_	_
+6	кие	кие	PRON	Pron	Interr|Sg|Nom	8	nsubj	_	_
+7	тянь	тя	PRON	Pron	Dem|SP|Gen	8	obj	_	_
+8	сёрмадозе	сёрмадомс	VERB	V	TV|Ind|Prt1|ScSg3|OcSg3	4	csubj	_	_
+9	.	.	CLB	CLB	_	4	punct	_	_
 
 # sent_id = LM_brat_2018:13
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="13" # storyID="brat"
 # text = Мезень лангс ванат?
 # text_sms = Mâiʹd ǩiõččak?
 # text_fi = Mitä katsot?
+1	Мезень	мезе	PRON	Pron	Interr|SP|Gen	3	obl	_	_
+2	лангс	лангс	ADP	Po	Ill	1	case	_	_
+3	ванат	ваномс	VERB	V	IV|Ind|Prs|ScSg2	0	root	_	_
+4	?	?	CLB	CLB	_	3	punct	_	_
 
 # sent_id = LM_brat_2018:14
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="14" # storyID="brat"
 # text = Кода арьсят, мзярда тон сават?
 # text_sms = Mâiʹd joordak što kuäʹss piâzzčiǩ?
 # text_fi = Milloin luulet voivasi tulla?
+1	Кода	кода	ADV	_	_	2	advmod	_	_
+2	арьсят	арьсемс	VERB	_	TV|Ind|Prs|ScSg2	0	root	_	_
+3	,	,	CLB	_	_	6	punct	_	_
+4	мзярда	мзярда	ADV	_	_	6	advmod:tmod	_	_
+5	тон	тон	PRON	_	Pers|Sg2|Nom	6	nsubj	_	_
+6	сават	савомс	VERB	_	IV|Ind|Prs|ScSg2	2	parataxis	_	_
+7	?	?	CLB	_	_	2	punct	_	_
 
 # sent_id = LM_brat_2018:15
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="15" # storyID="brat"
