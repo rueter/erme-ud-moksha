@@ -206,35 +206,96 @@
 # text = Сон рамась машина, а брадоц  аньцек велосипед.
 # text_sms = Son vueʹsti aaut da väʹst viʹlljes pâi tanccâmvuâjan.
 # text_fi = Hän osti auton mutta veljensä vain pyörän.
+1	Сон	сон	PRON	_	Pers|Sg3|Nom	2	nsubj	_	_
+2	рамась	рамамс	VERB	_	TV|Ind|Prt1|ScSg3	0	root	_	_
+3	машина	машина	NOUN	_	Sg|Nom|Indef	2	obj	_	_
+4	,	,	CLB	_	_	6	punct	_	_
+5	а	а	CC	_	_	6	cc	_	_
+6	брадоц	брад	NOUN	_	Sg|Nom|PxSg3	2	conj	_	_
+7	аньцек	аньцек	ADV	_	_	8	advmod	_	_
+8	велосипед	велосипед	NOUN	_	Sg|Nom|Indef	6	orphan	_	_
+9	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = LM_brat_2018:16
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="16" # storyID="brat"
 # text = Петя и Маря ашкордасть и  лиссть комнатаста.
 # text_sms = Peter da Mary âskkõʹlle da liõʹhtte meädda lõõnjâst.
 # text_fi = Peter ja Mary halasivat toisiaan ja lähtivät huoneesta.
+1	Петя	Петя	PROPN	_	Prop|Sem/Mal|Sg|Nom|Indef	4	nsubj	_	_
+2	и	и	CC	_	_	3	cc	_	_
+3	Маря	Маря	PROPN	_	Prop|Sem/Fem|Sg|Nom	1	conj	_	_
+4	ашкордасть	ашкордамс	VERB	_	IV|Ind|Prt1|ScPl3	0	root	_	_
+5	и	и	CC	_	_	6	cc	_	_
+6	лиссть	лисемс	VERB	_	IV|Ind|Prt1|ScPl3	4	conj	_	_
+7	комнатаста	комната	NOUN	_	SP|Ela|Indef	6	obl	_	_
+8	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = LM_brat_2018:17
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="17" # storyID="brat"
 # text = Сондеенза эрявсть тиемс шяяренза, аньцек ся шиня сонь ашель мялец.
 # text_sms = Suʹst leäi õlggâm leeʹd tõn peeiʹv čååǥǥâʹttmen vuõptees, leša mii leežž šõddâm ǥu ij tâʹl ni vuäittam. 
 # text_fi = Hänen olisi pitänyt olla laittamassa kampaustaan mutta jostain syystä ei voinutkaan sinä päivänä
+1	Сондеенза	Сондеенза	PRON	_	Pers|Sg3|Dat|Long	3	obl	_	_
+2	эрявсть	эрявомс	AUX	_	IV|Ind|Prt1|ScPl3	3	aux	_	_
+3	тиемс	тиемс	VERB	_	TV|Inf	0	root	_	_
+4	шяяренза	шяярь	NOUN	_	Pl|Nom|PxSg3	3	obj	_	_
+5	,	,	CLB	_	_	9	punct	_	_
+6	аньцек	аньцек	ADV	_	_	9	advmod	_	_
+7	ся	ся	DET	_	Dem|Sg|Nom	8	det	_	_
+8	шиня	ши	NOUN	_	Der/Dimin|N|Sg|Nom|Indef	9	advmod:tmod	_	_
+9	сонь	сон	PRON	_	Pers|Sg3|Pers|Sg3|Gen	3	conj	_	_
+10	ашель	аш	VERB	_	Aux|Neg|Prt2|ScSg3	9	aux:neg	_	_
+11	мялец	мяль	NOUN	_	Sg|Nom|PxSg3	9	nsubj	_	_
+12	.	.	CLB	_	_	3	punct	_	_
 
 # sent_id = LM_brat_2018:18
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="18" # storyID="brat"
 # text = Мондейне сон ашезь сатов, сяс мес ласьксь пяк вишкста.
 # text_sms = Jiõm pâsttam seuʹrrjed suu urččmõõžž ǥu son leäi samai jåʹttel.
 # text_fi = En pystynyt seuraamaan koska hän juoksi liian nopeasti.
+1	Мондейне	мон	PRON	_	Pers|Sg1|Dat|Long	4	obl	_	_
+2	сон	сон	PRON	_	Pers|Sg3|Nom	4	nsubj	_	_
+3	ашезь	ашезь	AUX	_	Aux|Neg|Ind|Prt1|ScSg3	4	aux:neg	_	_
+4	сатов	сатовомс	VERB	_	IV|ConNeg	0	root	_	_
+5	,	,	CLB	_	_	8	punct	_	_
+6	сяс	сяс	ADV	_	_	8	mark	_	_
+7	мес	мес	ADV	_	_	6	flat	_	_
+8	ласьксь	ласьксь	VERB	_	Ind|Prt1|ScSg3	4	advcl	_	_
+9	пяк	пяк	ADV	_	AdA	10	advmod	_	_
+10	вишкста	вишкста	ADV	_	_	8	advmod	_	_
+11	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = LM_brat_2018:19
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="19" # storyID="brat"
 # text = Тя сёрмась Петянь эзда, и кандозь сонь исяк.
 # text_sms = Tät jåhtta tuåimtum ǩeʹrjj lij Peter vuõltteem.
 # text_fi = Tämä on kirje Peteriltä ja se toimitettiin eilen
+1	Тя	тя	DET	_	Dem|Sg|Nom	2	det	_	_
+2	сёрмась	сёрма	NOUN	_	Sg|Nom|Def	3	nsubj	_	_
+3	Петянь	Петя	PROPN	_	Prop|Sem/Mal|SP|Gen|Indef	0	root	_	_
+4	эзда	эзда	ADP	_	Abl	3	case	_	_
+5	,	,	CLB	_	_	7	punct	_	_
+6	и	и	CC	_	_	7	cc	_	_
+7	кандозь	кандомс	VERB	_	TV|Ind|Prt1|ScPl3|OcSg3	3	conj	_	_
+8	сонь	сон	PRON	_	Pers|Sg3|Gen	7	obj	_	_
+9	исяк	исяк	ADV	_	_	7	advmod:tmod	_	_
+10	.	.	CLB	_	_	3	punct	_	_
 
 # sent_id = LM_brat_2018:20
 # aannotation="yes" # paragID="1" # pgNo="1" # sentID="20" # storyID="brat"
 # text = Сон кассь Парижса. Парижсь – тя Франциять ине ошец.
 # text_sms = Son jälsti čõõđ ääiʹj Pariizzâst, Franskkjânnam vueiʹvvgåårdest.
 # text_fi = Hän kasvoi Pariisissa, joka on Ranksan pääkaupunki.
+1	Сон	сон	PRON	_	Pers|Sg3|Nom	2	nsubj	_	_
+2	кассь	касомс	VERB	_	IV|Ind|Prt1|ScSg3	_	x	_	_
+3	Парижса	Парижса	PROPN	_	Prop|Sg|Nom|Indef	2	obl	_	_
+4	.	.	CLB	_	_	2	punct	_	_
+5	Парижсь	Парижсь	PROPN	_	Prop|Sg|Nom|Def	10	nsubj	_	_
+6	–	–	PUNCT	_	_	7	punct	_	_
+7	тя	тя	PRON	_	Dem|Sg|Nom	5	appos	_	_
+8	Франциять	Франция	PROPN	_	Prop|Sem/Plc|Sg|Gen|Def	10	nmod	_	_
+9	ине	ине	ADJ	_	Sg|Nom|Indef	10	amod	_	_
+10	ошец	ош	NOUN	_	Sg|Nom|PxSg3	2	parataxis	_	_
+11	.	.	CLB	_	_	10	punct	_	_
 
 </text>
